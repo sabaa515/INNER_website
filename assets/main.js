@@ -2,9 +2,7 @@
 let nums = document.querySelectorAll('.num');
 let increasingNumbersSection = document.querySelector('.increasingNumbers');
 let welcomeToINNERSection = document.querySelector('.welcomeToINNER');
-let servicesSection = document.getElementById('ourService').children;
 
-console.log(servicesSection);
 let increasingStarted = false;
 
 window.onscroll = function () {
